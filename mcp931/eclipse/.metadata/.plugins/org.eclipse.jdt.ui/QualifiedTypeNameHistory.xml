@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="net.minecraft.client.Minecraft"/>
+<fullyQualifiedTypeName name="vort3x.Module"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="vort3x.Client"/>
+<fullyQualifiedTypeName name="net.minecraft.client.audio.ISound"/>
+<fullyQualifiedTypeName name="net.minecraft.client.audio.PositionedSoundRecord"/>
+</qualifiedTypeNameHistroy>

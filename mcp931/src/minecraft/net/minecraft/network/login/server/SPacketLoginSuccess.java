@@ -3,9 +3,13 @@ package net.minecraft.network.login.server;
 import com.mojang.authlib.GameProfile;
 import java.io.IOException;
 import java.util.UUID;
+
+import net.minecraft.client.audio.PositionedSoundRecord;
+import net.minecraft.init.SoundEvents;
 import net.minecraft.network.Packet;
 import net.minecraft.network.PacketBuffer;
 import net.minecraft.network.login.INetHandlerLoginClient;
+import vort3x.Client;
 
 public class SPacketLoginSuccess implements Packet<INetHandlerLoginClient>
 {
@@ -46,6 +50,7 @@ public class SPacketLoginSuccess implements Packet<INetHandlerLoginClient>
      */
     public void processPacket(INetHandlerLoginClient handler)
     {
+    	Client.mc.getSoundHandler().playSound(PositionedSoundRecord.getMasterRecord(SoundEvents.ENTITY_PLAYER_LEVELUP, 1.0F));
         handler.handleLoginSuccess(this);
     }
 
