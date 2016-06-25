@@ -1,0 +1,37 @@
+package vort3x;
+
+public class Module {
+	
+	/*The base for all the modules*/
+	
+	Module(String name)
+	{
+		this.name = name;
+	}
+	
+	private String name;
+	private boolean enabled;
+	
+	public void setEnabled(boolean state)
+	{
+		boolean changed = enabled == state;
+		enabled = state;
+		if(state && changed)
+			onEnable();
+		else if(!state && changed)
+			onDisable();
+	}
+	
+	public boolean getEnabled()
+	{
+		return enabled;
+	}
+	
+	private void onEnable()
+	{
+	}
+	
+	private void onDisable()
+	{
+	}
+}

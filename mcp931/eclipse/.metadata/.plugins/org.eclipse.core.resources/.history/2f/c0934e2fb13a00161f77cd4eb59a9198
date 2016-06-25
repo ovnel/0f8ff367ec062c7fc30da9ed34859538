@@ -1,0 +1,7 @@
+package vort3x;
+
+import java.util.ArrayList;
+
+public class ModuleManager {
+	private static ArrayList<Module> modules = new ArrayList<Module>();
+}

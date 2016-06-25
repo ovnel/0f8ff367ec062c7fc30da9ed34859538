@@ -1,0 +1,11 @@
+package vort3x;
+
+public class Module {
+	Module(String name)
+	{
+		this.name = name;
+	}
+	
+	private String name;
+	
+}
