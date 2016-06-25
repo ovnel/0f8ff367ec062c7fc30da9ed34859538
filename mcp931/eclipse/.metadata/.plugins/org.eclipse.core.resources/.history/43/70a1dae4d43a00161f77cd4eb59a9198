@@ -34,8 +34,4 @@ public class Module {
 	private void onDisable()
 	{
 	}
-	
-	public void onPoke()
-	{
-	}
 }

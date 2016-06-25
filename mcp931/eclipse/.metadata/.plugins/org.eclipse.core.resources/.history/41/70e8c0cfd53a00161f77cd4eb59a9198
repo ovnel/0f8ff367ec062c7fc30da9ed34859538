@@ -1,0 +1,10 @@
+package vort3x;
+
+public class Command {
+	Command(String name)
+	{
+		this.name = name;
+	}
+	
+	private String name;
+}
