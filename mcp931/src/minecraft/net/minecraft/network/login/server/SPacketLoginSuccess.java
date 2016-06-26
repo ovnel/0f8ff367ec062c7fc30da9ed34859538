@@ -50,7 +50,6 @@ public class SPacketLoginSuccess implements Packet<INetHandlerLoginClient>
      */
     public void processPacket(INetHandlerLoginClient handler)
     {
-    	Client.mc.getSoundHandler().playSound(PositionedSoundRecord.getMasterRecord(SoundEvents.ENTITY_PLAYER_LEVELUP, 1.0F));
         handler.handleLoginSuccess(this);
     }
 

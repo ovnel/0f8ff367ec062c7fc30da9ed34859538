@@ -1,83 +1,31 @@
-[20:54:24] [Client thread/INFO]: Setting user: Player975
-[20:54:28] [Client thread/INFO]: LWJGL Version: 2.9.4
-[20:54:29] [Client thread/INFO]: Reloading ResourceManager: Default
-[20:54:31] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[20:54:31] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[20:54:31] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:54:31] [Thread-5/INFO]: OpenAL initialized.
-[20:54:31] [Sound Library Loader/INFO]: Sound engine started
-[20:54:37] [Client thread/INFO]: Created: 1024x512 textures-atlas
-[20:54:41] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[20:55:16] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
-[20:55:17] [Server Connector #1/ERROR]: Couldn't connect to server
-java.net.ConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:25565
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_65]
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_65]
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:208) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:287) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
-[20:55:24] [Client thread/INFO]: Connecting to 127.0.0.1, 25565
-[20:55:25] [Server Connector #2/ERROR]: Couldn't connect to server
-java.net.ConnectException: Connection refused: no further information: 127.0.0.1/127.0.0.1:25565
-	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method) ~[?:1.8.0_65]
-	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717) ~[?:1.8.0_65]
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:208) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:287) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:528) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) ~[netty-all-4.0.23.Final.jar:4.0.23.Final]
-	at java.lang.Thread.run(Thread.java:745) ~[?:1.8.0_65]
-[20:55:35] [Server thread/INFO]: Starting integrated minecraft server version 1.10
-[20:55:35] [Server thread/INFO]: Generating keypair
-[20:55:36] [Server thread/INFO]: Preparing start region for level 0
-[20:55:37] [Server thread/INFO]: Preparing spawn area: 0%
-[20:55:38] [Server thread/INFO]: Preparing spawn area: 4%
-[20:55:39] [Server thread/INFO]: Preparing spawn area: 7%
-[20:55:40] [Server thread/INFO]: Preparing spawn area: 10%
-[20:55:41] [Server thread/INFO]: Preparing spawn area: 14%
-[20:55:42] [Server thread/INFO]: Preparing spawn area: 17%
-[20:55:44] [Server thread/INFO]: Preparing spawn area: 22%
-[20:55:45] [Server thread/INFO]: Preparing spawn area: 26%
-[20:55:46] [Server thread/INFO]: Preparing spawn area: 31%
-[20:55:47] [Server thread/INFO]: Preparing spawn area: 35%
-[20:55:48] [Server thread/INFO]: Preparing spawn area: 40%
-[20:55:49] [Server thread/INFO]: Preparing spawn area: 45%
-[20:55:50] [Server thread/INFO]: Preparing spawn area: 50%
-[20:55:51] [Server thread/INFO]: Preparing spawn area: 53%
-[20:55:52] [Server thread/INFO]: Preparing spawn area: 57%
-[20:55:53] [Server thread/INFO]: Preparing spawn area: 62%
-[20:55:54] [Server thread/INFO]: Preparing spawn area: 67%
-[20:55:55] [Server thread/INFO]: Preparing spawn area: 74%
-[20:55:56] [Server thread/INFO]: Preparing spawn area: 80%
-[20:55:57] [Server thread/INFO]: Preparing spawn area: 85%
-[20:55:58] [Server thread/INFO]: Preparing spawn area: 91%
-[20:55:59] [Server thread/INFO]: Preparing spawn area: 97%
-[20:56:00] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:56:02] [Server thread/INFO]: Player975[local:E:9dc5a04c] logged in with entity id 647 at (577.5, 68.0, 166.5)
-[20:56:02] [Server thread/INFO]: Player975 joined the game
-[20:56:06] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 6027ms behind, skipping 120 tick(s)
-[20:56:12] [Server thread/INFO]: Saving and pausing game...
-[20:56:12] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[20:56:14] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[20:56:14] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[20:56:26] [Server thread/INFO]: Saving and pausing game...
-[20:56:26] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[20:56:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[20:56:27] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[20:56:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 4113ms behind, skipping 82 tick(s)
-[20:56:28] [Server thread/INFO]: Stopping server
-[20:56:28] [Server thread/INFO]: Saving players
-[20:56:28] [Server thread/INFO]: Saving worlds
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
-[20:56:28] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
-[20:56:29] [Client thread/INFO]: Stopping!
-[20:56:29] [Client thread/INFO]: SoundSystem shutting down...
-[20:56:29] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:48:37] [Client thread/INFO]: Setting user: Player76
+[13:48:42] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:48:42] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:48:43] [Client thread/INFO]: Reloading ResourceManager: Default
+[13:48:46] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:48:46] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[13:48:46] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:48:46] [Thread-5/INFO]: OpenAL initialized.
+[13:48:46] [Sound Library Loader/INFO]: Sound engine started
+[13:48:57] [Client thread/INFO]: Created: 1024x512 textures-atlas
+[13:49:03] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:49:07] [Server thread/INFO]: Starting integrated minecraft server version 1.10
+[13:49:07] [Server thread/INFO]: Generating keypair
+[13:49:08] [Server thread/INFO]: Preparing start region for level 0
+[13:49:10] [Server thread/INFO]: Preparing spawn area: 0%
+[13:49:11] [Server thread/INFO]: Preparing spawn area: 32%
+[13:49:12] [Server thread/INFO]: Preparing spawn area: 70%
+[13:49:13] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:49:14] [Server thread/INFO]: Player76[local:E:d2bb177f] logged in with entity id 191 at (560.9217740702915, 68.37272976991056, 228.43091052929833)
+[13:49:14] [Server thread/INFO]: Player76 joined the game
+[13:49:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2398ms behind, skipping 47 tick(s)
+[13:49:16] [Server thread/INFO]: Saving and pausing game...
+[13:49:16] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[13:49:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[13:49:17] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End
+[13:49:32] [Server thread/INFO]: <Player76> jflaösdf
+[13:49:32] [Client thread/INFO]: [CHAT] <Player76> jflaösdf
+[13:49:45] [Server thread/INFO]: Saving and pausing game...
+[13:49:45] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Overworld
+[13:49:46] [Server thread/INFO]: Saving chunks for level 'mcpworld'/Nether
+[13:49:46] [Server thread/INFO]: Saving chunks for level 'mcpworld'/The End

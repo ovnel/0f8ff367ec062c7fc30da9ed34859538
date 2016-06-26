@@ -1,0 +1,16 @@
+package vort3x;
+
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.audio.PositionedSoundRecord;
+import net.minecraft.init.SoundEvents;
+
+public class Client {
+	
+	/*This class includes miscellaneous methods and variables*/
+	
+	// Used as a shorthand in the hack's code
+	public static Minecraft mc = Minecraft.getMinecraft();
+	
+	//TODO// Put this somewhere
+	//Client.mc.getSoundHandler().playSound(PositionedSoundRecord.getMasterRecord(SoundEvents.ENTITY_PLAYER_LEVELUP, 0.7F));
+}

@@ -73,6 +73,7 @@ import net.minecraft.util.math.Vec3d;
 import net.minecraft.util.text.ITextComponent;
 import net.minecraft.world.IInteractionObject;
 import net.minecraft.world.World;
+import vort3x.CommandManager;
 
 public class EntityPlayerSP extends AbstractClientPlayer
 {
@@ -350,7 +351,9 @@ public class EntityPlayerSP extends AbstractClientPlayer
      */
     public void sendChatMessage(String message)
     {
-        this.connection.sendPacket(new CPacketChatMessage(message));
+    	//TODO vort3x// Chat message catcher
+    	if(CommandManager.onChatMessage(message))
+        	this.connection.sendPacket(new CPacketChatMessage(message));
     }
 
     public void swingArm(EnumHand hand)

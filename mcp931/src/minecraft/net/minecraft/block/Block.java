@@ -472,8 +472,9 @@ public class Block
     @Deprecated
     public boolean shouldSideBeRendered(IBlockState blockState, IBlockAccess blockAccess, BlockPos pos, EnumFacing side)
     {
+    	//TODO vort3x// Xray
         AxisAlignedBB axisalignedbb = blockState.getBoundingBox(blockAccess, pos);
-
+        
         switch (side)
         {
             case DOWN:

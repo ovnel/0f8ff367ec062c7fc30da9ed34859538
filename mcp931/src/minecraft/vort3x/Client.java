@@ -8,4 +8,10 @@ public class Client {
 	
 	// Used as a shorthand in the hack's code
 	public static Minecraft mc = Minecraft.getMinecraft();
+	
+	public static void startClient()
+	{
+		CommandManager.addCommands();
+		ModuleManager.addModules();
+	}
 }

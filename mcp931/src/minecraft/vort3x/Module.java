@@ -12,6 +12,11 @@ public class Module {
 	private String name;
 	private boolean enabled;
 	
+	public String getName()
+	{
+		return name;
+	}
+	
 	public void setEnabled(boolean state)
 	{
 		boolean changed = enabled == state;
