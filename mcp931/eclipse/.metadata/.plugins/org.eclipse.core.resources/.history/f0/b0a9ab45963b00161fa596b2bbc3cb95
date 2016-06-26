@@ -1,0 +1,10 @@
+package vort3x.commands;
+
+import vort3x.Command;
+
+public class Toggle  extends Command{
+	Toggle()
+	{
+		super("toggle");
+	}
+}

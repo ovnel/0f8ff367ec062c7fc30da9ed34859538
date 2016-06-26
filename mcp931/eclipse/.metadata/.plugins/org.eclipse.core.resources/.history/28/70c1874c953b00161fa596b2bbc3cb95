@@ -1,0 +1,23 @@
+package vort3x;
+
+public class Command {
+	
+	/* The base for all the client side chat commands */
+	
+	public Command(String name)
+	{
+		this.name = name;
+	}
+	
+	private String name;
+	
+	public String getName()
+	{
+		return this.name;
+	}
+	
+	public void call(String args)
+	{
+	}
+	
+}

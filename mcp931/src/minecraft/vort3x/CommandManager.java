@@ -2,6 +2,8 @@ package vort3x;
 
 import java.util.ArrayList;
 
+import vort3x.commands.*;
+
 public class CommandManager{
 	
 	/* Handles all the client side commands
@@ -13,19 +15,26 @@ public class CommandManager{
 	
 	public static void addCommands()
 	{
-		
+		commands.add(new Toggle());
 	}
 	
 	public static boolean onChatMessage(String message)
 	{
 		if(commandOption(0, message).startsWith(commandPrefix))
 		{
+			boolean success = false;
 			for(Command command : commands)
 			{
 				if(commandOption(0, message).substring(commandPrefix.length()).equals(command.getName()))
 				{
+					success = true;
 					command.call(message.substring(optionCharIndex(1, message)));
 				}
+			}
+			if(!success)
+			{
+				Client.chatError("Invalid command: " + commandOption(0, message).substring(commandPrefix.length()));
+				Client.chatPrint("Hint: Use " + commandPrefix + "help to list all the commands");
 			}
 			return false;
 		}

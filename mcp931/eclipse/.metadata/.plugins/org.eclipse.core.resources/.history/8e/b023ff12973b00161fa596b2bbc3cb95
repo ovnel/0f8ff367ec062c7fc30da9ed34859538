@@ -1,0 +1,21 @@
+package vort3x.commands;
+
+import vort3x.Client;
+import vort3x.Command;
+import vort3x.CommandManager;
+import vort3x.ModuleManager;
+
+public class Toggle  extends Command{
+	Toggle()
+	{
+		super("toggle");
+	}
+	
+	public void call(String args)
+	{
+		if(!ModuleManager.setState(CommandManager.commandOption(0, args), !ModuleManager.getState(CommandManager.commandOption(0, args))))
+		{
+			Client.chatError("Invalid module: " + CommandManager.commandOption(0, args));
+		}
+	}
+}

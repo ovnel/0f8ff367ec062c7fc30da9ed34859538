@@ -182,6 +182,8 @@ import net.minecraft.world.chunk.storage.AnvilSaveConverter;
 import net.minecraft.world.storage.ISaveFormat;
 import net.minecraft.world.storage.ISaveHandler;
 import net.minecraft.world.storage.WorldInfo;
+import vort3x.Client;
+
 import org.apache.commons.io.Charsets;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.Validate;
@@ -620,6 +622,9 @@ public class Minecraft implements IThreadListener, ISnooperInfo
             this.gameSettings.saveOptions();
         }
 
+        //TODO vort3x// Call the command and module initializers
+        Client.startClient();
+        
         this.renderGlobal.makeEntityOutlineShader();
     }
 
@@ -635,7 +640,8 @@ public class Minecraft implements IThreadListener, ISnooperInfo
     private void createDisplay() throws LWJGLException
     {
         Display.setResizable(true);
-        Display.setTitle("Minecraft 1.10");
+        //TODO vort3x// Window title
+        Display.setTitle("Vort3x");
 
         try
         {
